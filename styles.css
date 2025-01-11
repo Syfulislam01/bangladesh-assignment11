@@ -70,6 +70,9 @@ nav button {
   border: none;
   background: rgb(0, 106, 80);
 }
+.explore-btn:hover {
+  background-color: green;
+}
 
 .head-title {
   color: rgb(14, 14, 14);
@@ -153,6 +156,98 @@ nav button {
   line-height: 19px;
 }
 
+.news-container {
+  display: flex;
+  gap: 24px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+}
+.news-title {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 24px 0px;
+}
+.news-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 12px 0px;
+}
+.news-content h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+}
+.news-content p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 12px 0px;
+}
+.image-content img {
+  border-radius: 24px;
+}
+.donate-container {
+  text-align: center;
+}
+.donate-title {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 24px 0px;
+}
+.donate-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.donate-takas {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.taka {
+  gap: 24;
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+.taka h1 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+}
+.donate-btn {
+  padding: 17px 34px 17px 34px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+}
+.donate-btn:hover {
+  background-color: green;
+}
+
+.donate-container input {
+  text-align: center;
+  width: 1032px;
+  height: 64px;
+  padding: 20px 40px 20px 40px;
+  margin: 32px 0px;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+}
 .letter-section {
   display: flex;
   justify-content: center;
